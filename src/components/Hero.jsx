@@ -6,7 +6,7 @@ const Hero = () => {
             <div className="hero min-h-[calc(100vh-250px)]  mb-8">
   <div className="hero-content text-center">
     <div className="max-w-md">
-      <h1 className="text-5xl font-bold">Welcome to <span className="text-pink-200">ByteBlaze</span></h1>
+      <h1 className="text-5xl font-bold">Welcome to <span className="text-secondary">ByteBlaze</span></h1>
       <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
   
       <Link to='/blogs' href="#_" className="relative inline-block text-lg group mr-2">

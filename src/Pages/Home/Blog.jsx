@@ -6,7 +6,7 @@ const Blog = () => {
     const [tabIndex,setTabIndex] = useState(0);
     const blog = useLoaderData();
     console.log(blog);
-    const{comments_count,title,reading_time_minutes,public_reaction_count,published_at,tags} = blog;
+    const{comments_count,title,reading_time_minutes,public_reaction_count,published_at} = blog;
     return (
         <div>
            <div className="max-w-3xl px-6 py-16 mx-auto space-y-12">
